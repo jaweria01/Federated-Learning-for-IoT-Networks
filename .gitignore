@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data files (large)
+data/*.pkl
+data/*.csv
+data/*.h5
+data/*.npz
+
+# Model files
+results/models/*.h5
+results/models/*.pkl
+results/models/*.keras
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
